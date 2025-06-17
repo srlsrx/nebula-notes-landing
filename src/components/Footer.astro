@@ -1,0 +1,138 @@
+---
+import Logo from "@assets/logo.astro";
+import { Instagram, Github, Mail, Linkedin } from "@lucide/astro";
+---
+
+<footer class="flex flex-col justify-center py-12 bg-gray-900">
+    <div class="container mx-auto max-w-380 w-full px-4 md:px-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="md:col-span-1">
+                <div class="flex items-center gap-2 max-w-50 w-full mb-4">
+                    <Logo />
+                    <h2 class="font-bold text-white text-xl">Nebula Notes</h2>
+                </div>
+                <p class="text-gray-400 mb-6">
+                    The markdown note-taking app built specifically for
+                    developers.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="" class="text-gray-400 hover:text-white transition-colors"><Instagram size="20" /></a>
+                    <a href="" class="text-gray-400 hover:text-white transition-colors"><Github size="20" /></a>
+                    <a href="" class="text-gray-400 hover:text-white transition-colors"><Linkedin size="20" /></a>
+                    <a href="" class="text-gray-400 hover:text-white transition-colors"><Mail size="20" /></a>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-white mb-4">Product</h3>
+                <ul class="space-y-2">
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Features</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Pricing</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Changelog</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Roadmap</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Beta Program</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-white mb-4">Resources</h3>
+                <ul class="space-y-2">
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Documentation</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Tutorials</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Blog</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Support</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Community</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-white mb-4">Company</h3>
+                <ul class="space-y-2">
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >About</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Careers</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Contact</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Privacy</a>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a
+                            href=""
+                            class="text-gray-400 hover:text-white transition-colors"
+                            >Terms</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center max-w-380 w-full mx-auto">
+            <p class="text-gray-400">
+                &copy; {new Date().getFullYear()} Nebula Notes. All rights reserved.
+            </p>
+            <p class="text-gray-400">Made with ❤️ by Nico Fernández.</p>
+        </div>
+    </div>
+</footer>

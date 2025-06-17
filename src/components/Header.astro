@@ -1,0 +1,21 @@
+---
+import Logo from "@assets/logo.astro"
+---
+
+<header class="flex justify-center py-5">
+    <div class="flex justify-between px-4 md:px-6 min-w-50 w-full max-w-380 items-center">
+        <div class="flex items-center gap-2 max-w-50 w-full">
+            <Logo />
+            <h2 class="font-bold text-xl">Nebula Notes<h2/>
+        </div>
+        <nav class="flex items-center justify-end gap-2 w-full">
+            <ul class="flex items-center gap-8">
+                <li><a href="" class="hover:text-blue-500 transition-colors">Features</a></li>
+                <li><a href="" class="hover:text-blue-500 transition-colors">Testimonials</a></li>
+                <li><a href="" class="hover:text-blue-500 transition-colors">Pricing</a></li>
+                <li><a href="" class="hover:text-blue-500 transition-colors">Contact</a></li>
+                <button class="bg-blue-500 hover:bg-blue-600 px-4 py-2 transition-colors duration-200 rounded-md text-white">Start Free</button>
+            </ul>
+        </nav>
+    </div>
+</header>
