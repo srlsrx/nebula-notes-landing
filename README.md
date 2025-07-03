@@ -90,6 +90,3 @@ Este proyecto está bajo la licencia MIT.
 ---
 
 ¿Quieres contribuir? ¡Pull requests y sugerencias son bienvenidas!
-
-```
-Nota: Actualiza `https://github.com/srlsrx/nebula-notes-landing` con la URL real de tu repositorio.
